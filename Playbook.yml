@@ -1,0 +1,6 @@
+---
+  - name: Installing postgres
+    hosts: all
+    become: yes
+    roles:
+    - javajdkrole.javajdk
