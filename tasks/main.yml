@@ -1,0 +1,8 @@
+---
+  - name: updating system
+    apt:
+      upgrade: yes
+      update_cache: yes
+      
+  - name: installing openjdk-8-jdk
+    package: name=openjdk-8-jdk state=latest
