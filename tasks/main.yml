@@ -7,6 +7,3 @@
   - name: installing openjdk-8-jdk
     package: name=openjdk-8-jdk state=latest
     
-  - name: create java env var
-    environment:
-      JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
