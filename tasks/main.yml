@@ -3,6 +3,9 @@
     apt:
       upgrade: yes
       update_cache: yes
+  - name: setting java home 
+    environment:
+      JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
       
   - name: installing openjdk-8-jdk
     package: name=openjdk-8-jdk state=latest
